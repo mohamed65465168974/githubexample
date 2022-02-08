@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:githubexample/screens/screens.dart';
 
 class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   final String title;
@@ -16,7 +18,9 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
         Padding(
           padding: const EdgeInsets.all(10.0),
           child: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Get.to(() => WishlistScreen());
+            },
             icon: Icon(Icons.favorite),
           ),
         )
