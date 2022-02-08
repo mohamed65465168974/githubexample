@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="create cateogry model class">
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="use category model to show carousel in home screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/custom_appbar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/custom_appbar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/custom_navbar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/custom_navbar.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644349008442</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="use category model to show carousel in home screen">
+      <created>1644349580949</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644349580949</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -244,7 +252,8 @@
     <MESSAGE value="navigate to wishlist screen from app bar" />
     <MESSAGE value="add carousel to homepage screen" />
     <MESSAGE value="create cateogry model class" />
-    <option name="LAST_COMMIT_MESSAGE" value="create cateogry model class" />
+    <MESSAGE value="use category model to show carousel in home screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="use category model to show carousel in home screen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
