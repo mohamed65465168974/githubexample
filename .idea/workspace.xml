@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="add title to app bar">
-      <change afterPath="$PROJECT_DIR$/lib/widgets/custom_appbar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/widgets.dart" afterDir="false" />
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="move app bar to a seperate widget">
+      <change afterPath="$PROJECT_DIR$/lib/widgets/custom_navbar.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/widgets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/widgets.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644332064967</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="move app bar to a seperate widget">
+      <created>1644333915493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644333915493</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -120,7 +135,8 @@
     <MESSAGE value="modify title for the second time" />
     <MESSAGE value="add app bar" />
     <MESSAGE value="add title to app bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add title to app bar" />
+    <MESSAGE value="move app bar to a seperate widget" />
+    <option name="LAST_COMMIT_MESSAGE" value="move app bar to a seperate widget" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
