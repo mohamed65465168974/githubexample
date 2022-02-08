@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:githubexample/screens/home/home_screen.dart';
 
 class CustomNavBar extends StatelessWidget {
   const CustomNavBar({
@@ -17,9 +19,9 @@ class CustomNavBar extends StatelessWidget {
             children: [
               IconButton(
                 onPressed: () {
-                  // Get.to(
-                  //   Home(),
-                  // );
+                  Get.offAll(
+                    () => HomeScreen(),
+                  );
                 },
                 icon: Icon(
                   Icons.home,
