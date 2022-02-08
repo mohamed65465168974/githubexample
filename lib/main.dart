@@ -38,6 +38,10 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0.0,
+        title: Container(
+          color: Colors.black,
+          child: Text('title of the app'),
+        ),
       ),
     );
   }
