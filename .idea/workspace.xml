@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/lib/widgets/custom_navbar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/custom_navbar.dart" afterDir="false" />
-    </list>
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="create proudct, wishlist, catalog screens" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644339018363</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="navigate to cart screen from nav bar">
+      <created>1644339257244</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644339257244</updated>
+    </task>
+    <task id="LOCAL-00013" summary="create proudct, wishlist, catalog screens">
+      <created>1644345085790</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644345085790</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -189,7 +201,9 @@
     <MESSAGE value="use get to navigate to home screen from nav bar" />
     <MESSAGE value="create cart screen" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="navigate to cart screen from nav bar" />
+    <MESSAGE value="create proudct, wishlist, catalog screens" />
+    <option name="LAST_COMMIT_MESSAGE" value="create proudct, wishlist, catalog screens" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
