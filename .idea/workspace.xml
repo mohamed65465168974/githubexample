@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="navigate to wishlist screen from app bar">
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="add carousel to homepage screen">
+      <change afterPath="$PROJECT_DIR$/lib/models/category_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/models.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644345639339</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add carousel to homepage screen">
+      <created>1644346759330</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1644346759330</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -234,7 +242,8 @@
     <MESSAGE value="navigate to cart screen from nav bar" />
     <MESSAGE value="create proudct, wishlist, catalog screens" />
     <MESSAGE value="navigate to wishlist screen from app bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="navigate to wishlist screen from app bar" />
+    <MESSAGE value="add carousel to homepage screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="add carousel to homepage screen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
