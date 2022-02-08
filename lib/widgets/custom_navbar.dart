@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:githubexample/screens/cart/cart_screen.dart';
 import 'package:githubexample/screens/home/home_screen.dart';
 
 class CustomNavBar extends StatelessWidget {
@@ -31,9 +32,7 @@ class CustomNavBar extends StatelessWidget {
               ),
               IconButton(
                 onPressed: () {
-                  // Get.to(
-                  //   Home(),
-                  // );
+                  Get.to(() => CartScreen());
                 },
                 icon: Icon(
                   Icons.shopping_cart,
