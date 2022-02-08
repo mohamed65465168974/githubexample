@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="change app bar and nav bar color">
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="move hero carousel widget into a separate file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644350410193</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="move hero carousel widget into a separate file">
+      <created>1644354132944</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1644354132944</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -259,7 +267,8 @@
     <MESSAGE value="create cateogry model class" />
     <MESSAGE value="use category model to show carousel in home screen" />
     <MESSAGE value="change app bar and nav bar color" />
-    <option name="LAST_COMMIT_MESSAGE" value="change app bar and nav bar color" />
+    <MESSAGE value="move hero carousel widget into a separate file" />
+    <option name="LAST_COMMIT_MESSAGE" value="move hero carousel widget into a separate file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
