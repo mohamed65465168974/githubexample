@@ -10,7 +10,36 @@ class ProductScreen extends StatelessWidget {
     var product = Get.arguments;
     return Scaffold(
       appBar: CustomAppBar(title: product.name),
-      bottomNavigationBar: CustomNavBar(),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.white,
+        elevation: 40,
+        child: Container(
+          height: 70,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.share),
+                color: Colors.black,
+              ),
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.favorite),
+                color: Colors.black,
+              ),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text(
+                  'ADD TO CART',
+                  style: TextStyle(),
+                ),
+                style: ElevatedButton.styleFrom(primary: Colors.green),
+              ),
+            ],
+          ),
+        ),
+      ),
       body: ListView(
         children: [
           CarouselSlider(
