@@ -1,5 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:githubexample/blocs/wishlist_bloc.dart';
 import 'package:githubexample/widgets/widgets.dart';
 import 'package:get/get.dart';
 
@@ -23,10 +25,18 @@ class ProductScreen extends StatelessWidget {
                 icon: Icon(Icons.share),
                 color: Colors.black,
               ),
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.favorite),
-                color: Colors.black,
+              BlocBuilder<WishlistBloc, WishlistState>(
+                builder: (context, state) {
+                  return IconButton(
+                    onPressed: () {
+                      context
+                          .read<WishlistBloc>()
+                          .add(AddProductToWishlist(product));
+                    },
+                    icon: Icon(Icons.favorite),
+                    color: Colors.black,
+                  );
+                },
               ),
               ElevatedButton(
                 onPressed: () {},
