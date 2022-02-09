@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="add bottom nav bar to product screen">
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="add products to wishlist screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/wishlist/wishlist_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/wishlist/wishlist_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/product_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/product_card.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644428960052</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add products to wishlist screen">
+      <created>1644432806966</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1644432806966</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -349,7 +357,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="use get to navigate to home screen from nav bar" />
     <MESSAGE value="create cart screen" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="navigate to cart screen from nav bar" />
@@ -374,7 +381,8 @@
     <MESSAGE value="add name and price to product screen" />
     <MESSAGE value="add product info and delivery info to product screen" />
     <MESSAGE value="add bottom nav bar to product screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bottom nav bar to product screen" />
+    <MESSAGE value="add products to wishlist screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="add products to wishlist screen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

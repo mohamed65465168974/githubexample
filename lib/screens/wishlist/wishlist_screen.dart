@@ -20,6 +20,7 @@ class WishlistScreen extends StatelessWidget {
               child: ProductCard(
                 product: Product.products[index],
                 widthFactor: 1.1,
+                isWishlist: true,
               ),
             );
           }),

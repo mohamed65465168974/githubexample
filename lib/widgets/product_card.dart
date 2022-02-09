@@ -6,14 +6,17 @@ import 'package:githubexample/screens/product/product_screen.dart';
 class ProductCard extends StatelessWidget {
   final Product product;
   final widthFactor;
+  final bool isWishlist;
   const ProductCard({
     required this.product,
     this.widthFactor = 2.5,
+    this.isWishlist = false,
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    final double widthValue = MediaQuery.of(context).size.width / widthFactor;
     return SingleChildScrollView(
       child: InkWell(
         onTap: () {
@@ -22,7 +25,7 @@ class ProductCard extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              width: MediaQuery.of(context).size.width / widthFactor,
+              width: widthValue,
               height: 150,
               child: Image.network(
                 product.imageUrl,
@@ -33,7 +36,7 @@ class ProductCard extends StatelessWidget {
               height: 5,
             ),
             Container(
-              width: MediaQuery.of(context).size.width / 2.5,
+              width: widthValue,
               height: 40,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -51,14 +54,26 @@ class ProductCard extends StatelessWidget {
                       ),
                     ],
                   ),
-                  IconButton(
-                    alignment: Alignment.topRight,
-                    onPressed: () {},
-                    icon: Icon(
-                      Icons.add_shopping_cart,
-                      color: Colors.green,
-                    ),
-                  ),
+                  Row(
+                    children: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(
+                          Icons.add_shopping_cart,
+                          color: Colors.green,
+                        ),
+                      ),
+                      isWishlist
+                          ? IconButton(
+                              onPressed: () {},
+                              icon: Icon(
+                                Icons.delete,
+                                color: Colors.green,
+                              ),
+                            )
+                          : SizedBox(),
+                    ],
+                  )
                 ],
               ),
             ),
