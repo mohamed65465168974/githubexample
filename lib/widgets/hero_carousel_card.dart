@@ -4,13 +4,16 @@ import 'package:githubexample/models/models.dart';
 import 'package:githubexample/screens/catalog/catalog_screen.dart';
 
 class HeroCarouselCard extends StatelessWidget {
-  final Category category;
-  const HeroCarouselCard({required this.category});
+  final Category? category;
+  final Product? product;
+  const HeroCarouselCard({this.category, this.product});
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Get.to(() => CatalogScreen(), arguments: category);
+        if (this.product == null) {
+          Get.to(() => CatalogScreen(), arguments: category);
+        }
       },
       child: Container(
         margin: EdgeInsets.all(5.0),
@@ -18,8 +21,10 @@ class HeroCarouselCard extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(5.0)),
             child: Stack(
               children: <Widget>[
-                Image.network(category.imageUrl,
-                    fit: BoxFit.cover, width: 1000.0),
+                Image.network(
+                    product == null ? category!.imageUrl : product!.imageUrl,
+                    fit: BoxFit.cover,
+                    width: 1000.0),
                 Positioned(
                   bottom: 0.0,
                   left: 0.0,
@@ -38,7 +43,7 @@ class HeroCarouselCard extends StatelessWidget {
                     padding:
                         EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                     child: Text(
-                      category.name,
+                      product == null ? category!.name : '',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
