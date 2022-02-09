@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="create category title and move it to a separate widget file">
-      <change afterPath="$PROJECT_DIR$/lib/models/product_model.dart" afterDir="false" />
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="create product model">
+      <change afterPath="$PROJECT_DIR$/lib/widgets/product_card.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/widgets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/widgets.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644358236882</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="create product model">
+      <created>1644361727872</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1644361727872</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -276,7 +285,8 @@
     <MESSAGE value="change app bar and nav bar color" />
     <MESSAGE value="move hero carousel widget into a separate file" />
     <MESSAGE value="create category title and move it to a separate widget file" />
-    <option name="LAST_COMMIT_MESSAGE" value="create category title and move it to a separate widget file" />
+    <MESSAGE value="create product model" />
+    <option name="LAST_COMMIT_MESSAGE" value="create product model" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
