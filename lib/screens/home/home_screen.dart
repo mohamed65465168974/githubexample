@@ -39,6 +39,15 @@ class HomeScreen extends StatelessWidget {
                     .where((product) => product.isRecommended)
                     .toList(),
               ),
+              SectionTitle(title: 'Most Popular'),
+              SizedBox(
+                height: 5,
+              ),
+              ProductCarousel(
+                products: Product.products
+                    .where((product) => product.isPopular)
+                    .toList(),
+              ),
             ],
           ),
         ],
