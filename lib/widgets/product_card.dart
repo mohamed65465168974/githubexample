@@ -3,8 +3,10 @@ import 'package:githubexample/models/models.dart';
 
 class ProductCard extends StatelessWidget {
   final Product product;
+  final widthFactor;
   const ProductCard({
     required this.product,
+    this.widthFactor = 2.5,
     Key? key,
   }) : super(key: key);
 
@@ -14,7 +16,7 @@ class ProductCard extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            width: MediaQuery.of(context).size.width / 2.5,
+            width: MediaQuery.of(context).size.width / widthFactor,
             height: 150,
             child: Image.network(
               product.imageUrl,
