@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="create wishlist bloc">
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="update wish list screen to use it is bloc when favorite is pressed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/blocs/wishlist_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blocs/wishlist_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/blocs/wishlist_event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blocs/wishlist_event.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/blocs/wishlist_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blocs/wishlist_state.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/product/product_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/product/product_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/wishlist/wishlist_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/wishlist/wishlist_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +58,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="flutter.view.tool.window.visible" value="true" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
@@ -359,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644435529636</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update wish list screen to use it is bloc when favorite is pressed">
+      <created>1644447292262</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1644447292262</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -381,7 +384,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="create proudct, wishlist, catalog screens" />
     <MESSAGE value="navigate to wishlist screen from app bar" />
     <MESSAGE value="add carousel to homepage screen" />
     <MESSAGE value="create cateogry model class" />
@@ -406,7 +408,8 @@
     <MESSAGE value="modify product card to show delete button in wishlist screen" />
     <MESSAGE value="create wishlist model" />
     <MESSAGE value="create wishlist bloc" />
-    <option name="LAST_COMMIT_MESSAGE" value="create wishlist bloc" />
+    <MESSAGE value="update wish list screen to use it is bloc when favorite is pressed" />
+    <option name="LAST_COMMIT_MESSAGE" value="update wish list screen to use it is bloc when favorite is pressed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

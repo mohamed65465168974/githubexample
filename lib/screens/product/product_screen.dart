@@ -32,6 +32,8 @@ class ProductScreen extends StatelessWidget {
                       context
                           .read<WishlistBloc>()
                           .add(AddProductToWishlist(product));
+                      Get.snackbar(product.name, 'Added to your wishlist',
+                          snackPosition: SnackPosition.BOTTOM);
                     },
                     icon: Icon(Icons.favorite),
                     color: Colors.black,
