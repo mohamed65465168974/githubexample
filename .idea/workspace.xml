@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="modify product card to show delete button in wishlist screen">
-      <change afterPath="$PROJECT_DIR$/lib/models/wishlist_model.dart" afterDir="false" />
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="create wishlist model">
+      <change afterPath="$PROJECT_DIR$/lib/blocs/wishlist_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/blocs/wishlist_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/blocs/wishlist_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +66,6 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="flutter.view.tool.window.visible" value="true" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
@@ -340,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644434268556</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="create wishlist model">
+      <created>1644434514495</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1644434514495</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -362,7 +377,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="navigate to cart screen from nav bar" />
     <MESSAGE value="create proudct, wishlist, catalog screens" />
     <MESSAGE value="navigate to wishlist screen from app bar" />
@@ -387,7 +401,8 @@
     <MESSAGE value="add bottom nav bar to product screen" />
     <MESSAGE value="add products to wishlist screen" />
     <MESSAGE value="modify product card to show delete button in wishlist screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify product card to show delete button in wishlist screen" />
+    <MESSAGE value="create wishlist model" />
+    <option name="LAST_COMMIT_MESSAGE" value="create wishlist model" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
