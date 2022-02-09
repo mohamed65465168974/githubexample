@@ -55,6 +55,41 @@ class ProductScreen extends StatelessWidget {
               ],
             ),
           ),
+          SizedBox(
+            height: 10,
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20.0),
+            child: ExpansionTile(
+              initiallyExpanded: true,
+              title: Text(
+                'Product Information',
+              ),
+              textColor: Colors.black,
+              children: [
+                ListTile(
+                  title: Text(
+                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis tincidunt ullamcorper. In hac habitasse platea dictumst. Ut tincidunt pulvinar odio, eget dignissim mi fermentum id. Nam ac sapien in mi imperdiet blandit. Etiam tincidunt bibendum neque eu posuere. Nunc posuere scelerisque mattis. Maecenas fermentum sem non condimentum molestie. Quisque turpis libero, accumsan vitae fringilla a, venenatis sollicitudin magna. Maecenas magna dui, pharetra nec lobortis nec, lobortis sit amet libero.'),
+                ),
+              ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20.0),
+            child: ExpansionTile(
+              initiallyExpanded: true,
+              title: Text(
+                'Delivery Information',
+              ),
+              textColor: Colors.black,
+              children: [
+                ListTile(
+                  title: Text(
+                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis tincidunt ullamcorper. In hac habitasse platea dictumst. Ut tincidunt pulvinar odio, eget dignissim mi fermentum id. Nam ac sapien in mi imperdiet blandit. Etiam tincidunt bibendum neque eu posuere. Nunc posuere scelerisque mattis. Maecenas fermentum sem non condimentum molestie. Quisque turpis libero, accumsan vitae fringilla a, venenatis sollicitudin magna. Maecenas magna dui, pharetra nec lobortis nec, lobortis sit amet libero.'),
+                ),
+              ],
+            ),
+          )
         ],
       ),
     );
