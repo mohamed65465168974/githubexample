@@ -35,7 +35,9 @@ class HomeScreen extends StatelessWidget {
                 height: 5,
               ),
               ProductCarousel(
-                products: Product.products,
+                products: Product.products
+                    .where((product) => product.isRecommended)
+                    .toList(),
               ),
             ],
           ),
