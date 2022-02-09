@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="add product info and delivery info to product screen">
+    <list default="true" id="b121293f-71d2-4e18-9fa5-fdb0080aeeb2" name="Changes" comment="add bottom nav bar to product screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/product/product_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/product/product_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/wishlist/wishlist_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/wishlist/wishlist_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +58,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="flutter.view.tool.window.visible" value="true" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="ReaderModeSettings">
@@ -319,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644427558437</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add bottom nav bar to product screen">
+      <created>1644428960051</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1644428960052</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -341,7 +349,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="move home screen to a separate file" />
     <MESSAGE value="use get to navigate to home screen from nav bar" />
     <MESSAGE value="create cart screen" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
@@ -366,7 +373,8 @@
     <MESSAGE value="add carousel slider in product screen" />
     <MESSAGE value="add name and price to product screen" />
     <MESSAGE value="add product info and delivery info to product screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="add product info and delivery info to product screen" />
+    <MESSAGE value="add bottom nav bar to product screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bottom nav bar to product screen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
