@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:githubexample/blocs/wishlist_bloc.dart';
+import 'package:githubexample/blocs/wishlist/wishlist_bloc.dart';
 import 'package:githubexample/widgets/widgets.dart';
 
 class WishlistScreen extends StatelessWidget {

@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:githubexample/models/models.dart';
 import 'package:get/get.dart';
 import 'package:githubexample/screens/product/product_screen.dart';
+
+import '../blocs/cart/cart_bloc.dart';
 
 class ProductCard extends StatelessWidget {
   final Product product;
@@ -56,12 +59,29 @@ class ProductCard extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(
-                          Icons.add_shopping_cart,
-                          color: Colors.green,
-                        ),
+                      BlocBuilder<CartBloc, CartState>(
+                        builder: (context, state) {
+                          if (state is CartLoading) {
+                            return Center(
+                              child: CircularProgressIndicator(),
+                            );
+                          }
+                          if (state is CartLoaded) {
+                            return IconButton(
+                              onPressed: () {
+                                context
+                                    .read<CartBloc>()
+                                    .add(AddProuctToCart(product));
+                              },
+                              icon: Icon(
+                                Icons.add_shopping_cart,
+                                color: Colors.green,
+                              ),
+                            );
+                          } else {
+                            return Text('something went wrong');
+                          }
+                        },
                       ),
                       isWishlist
                           ? IconButton(

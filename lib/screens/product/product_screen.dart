@@ -1,9 +1,12 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:githubexample/blocs/wishlist_bloc.dart';
+import 'package:githubexample/blocs/wishlist/wishlist_bloc.dart';
+import 'package:githubexample/screens/screens.dart';
 import 'package:githubexample/widgets/widgets.dart';
 import 'package:get/get.dart';
+
+import '../../blocs/cart/cart_bloc.dart';
 
 class ProductScreen extends StatelessWidget {
   const ProductScreen({Key? key}) : super(key: key);
@@ -40,13 +43,20 @@ class ProductScreen extends StatelessWidget {
                   );
                 },
               ),
-              ElevatedButton(
-                onPressed: () {},
-                child: Text(
-                  'ADD TO CART',
-                  style: TextStyle(),
-                ),
-                style: ElevatedButton.styleFrom(primary: Colors.green),
+              BlocBuilder<CartBloc, CartState>(
+                builder: (context, state) {
+                  return ElevatedButton(
+                    onPressed: () {
+                      context.read<CartBloc>().add(AddProuctToCart(product));
+                      Get.to(CartScreen());
+                    },
+                    child: Text(
+                      'ADD TO CART',
+                      style: TextStyle(),
+                    ),
+                    style: ElevatedButton.styleFrom(primary: Colors.green),
+                  );
+                },
               ),
             ],
           ),
