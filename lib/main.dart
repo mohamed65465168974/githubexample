@@ -4,8 +4,11 @@ import 'package:get/get.dart';
 import 'package:githubexample/blocs/wishlist/wishlist_bloc.dart';
 import 'blocs/cart/cart_bloc.dart';
 import 'screens/screens.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
