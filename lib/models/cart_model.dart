@@ -5,6 +5,11 @@ import 'models.dart';
 class Cart extends Equatable {
   Cart();
 
+  double get subtotal =>
+      products.fold(0, (total, current) => total + current.price);
+
+  String get subtotalString => subtotal.toStringAsFixed(2);
+
   List<Product> products = [
     Product(
         name: 'soft drink #1',
