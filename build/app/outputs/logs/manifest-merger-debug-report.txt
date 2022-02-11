@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/64b3fc1b62744c02303ea9d962ae1dfb/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/64b3fc1b62744c02303ea9d962ae1dfb/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c9090c51b266a19e689708b4a4060be7/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c9090c51b266a19e689708b4a4060be7/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/64b3fc1b62744c02303ea9d962ae1dfb/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/bf1e183a23fe58d83b1e5064a3eb6453/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c4d37c399fce99cf1dcb827271bd0eb0/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/ea2d4dd55f2057eacddfab290451ee62/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/b837d0b31b2dbb67a31074ab1fb9f131/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/2d5951cf2a1bc9cbfd0c70a82255b73c/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/0b8f1547cef42a58bafee2782f6e86af/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/64b3fc1b62744c02303ea9d962ae1dfb/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/d16c63ef99278cfa90a022956e14aac1/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/8f416eff14497fb63d25456e8c14b0a3/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/307f354767e9dda0aa691accc86574df/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c1b76a3cd701f8996d56d44378932e7e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/66c7bf0a66b430ad1891f80a1f0d9765/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/38941239eba171796cdc4b66e18f9434/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c9090c51b266a19e689708b4a4060be7/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/18eb0a192d433bcdedca12a80a325d46/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/27d6585375910f6a3d720d3296ea801d/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:2:5-40
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/bf1e183a23fe58d83b1e5064a3eb6453/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/bf1e183a23fe58d83b1e5064a3eb6453/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c4d37c399fce99cf1dcb827271bd0eb0/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c4d37c399fce99cf1dcb827271bd0eb0/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/ea2d4dd55f2057eacddfab290451ee62/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/ea2d4dd55f2057eacddfab290451ee62/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/b837d0b31b2dbb67a31074ab1fb9f131/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/b837d0b31b2dbb67a31074ab1fb9f131/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/2d5951cf2a1bc9cbfd0c70a82255b73c/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/2d5951cf2a1bc9cbfd0c70a82255b73c/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/0b8f1547cef42a58bafee2782f6e86af/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/0b8f1547cef42a58bafee2782f6e86af/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/64b3fc1b62744c02303ea9d962ae1dfb/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/64b3fc1b62744c02303ea9d962ae1dfb/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/d16c63ef99278cfa90a022956e14aac1/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/d16c63ef99278cfa90a022956e14aac1/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/8f416eff14497fb63d25456e8c14b0a3/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/8f416eff14497fb63d25456e8c14b0a3/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/307f354767e9dda0aa691accc86574df/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/307f354767e9dda0aa691accc86574df/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c1b76a3cd701f8996d56d44378932e7e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c1b76a3cd701f8996d56d44378932e7e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/66c7bf0a66b430ad1891f80a1f0d9765/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/66c7bf0a66b430ad1891f80a1f0d9765/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/38941239eba171796cdc4b66e18f9434/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/38941239eba171796cdc4b66e18f9434/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c9090c51b266a19e689708b4a4060be7/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/c9090c51b266a19e689708b4a4060be7/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/18eb0a192d433bcdedca12a80a325d46/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/18eb0a192d433bcdedca12a80a325d46/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/27d6585375910f6a3d720d3296ea801d/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/27d6585375910f6a3d720d3296ea801d/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/37964db103454a856f46009d6778d97e/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
