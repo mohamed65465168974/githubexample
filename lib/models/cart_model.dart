@@ -25,11 +25,17 @@ class Cart extends Equatable {
     }
   }
 
+  double total(subtotal, deliveryFee) {
+    return subtotal + deliveryFee(subtotal);
+  }
+
   String get subtotalString => subtotal.toStringAsFixed(2);
 
   String get deliveryFeeString => deliveryFee(subtotal).toStringAsFixed(2);
 
   String get freeDeliveryString => freeDelivery(subtotal);
+
+  String get totalString => total(subtotal, deliveryFee).toStringAsFixed(2);
 
   List<Product> products = [
     Product(

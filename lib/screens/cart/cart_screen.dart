@@ -136,7 +136,7 @@ class CartScreen extends StatelessWidget {
                               style: Theme.of(context).textTheme.bodyLarge,
                             ),
                             Text(
-                              '250.0 EGP',
+                              '${Cart().totalString} EGP',
                               style: TextStyle(color: Colors.green),
                             ),
                           ],
