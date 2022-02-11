@@ -10,48 +10,53 @@ class CardProductCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(bottom: 8.0),
-      child: Row(
+      child: Column(
         children: [
-          Image.network(
-            product.imageUrl,
-            width: 100,
-            height: 80,
-            fit: BoxFit.cover,
-          ),
-          SizedBox(
-            width: 10,
-          ),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  product.name,
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-                ),
-                Text(
-                  '${product.price} EGP',
-                  style: TextStyle(color: Colors.green),
-                ),
-              ],
-            ),
-          ),
-          SizedBox(
-            width: 10,
-          ),
           Row(
             children: [
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.remove_circle),
+              Image.network(
+                product.imageUrl,
+                width: 100,
+                height: 80,
+                fit: BoxFit.cover,
               ),
-              Text(
-                '1',
-                style: TextStyle(fontSize: 15),
+              SizedBox(
+                width: 10,
               ),
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.add_circle),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      product.name,
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                    ),
+                    Text(
+                      '${product.price} EGP',
+                      style: TextStyle(color: Colors.green),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(
+                width: 10,
+              ),
+              Row(
+                children: [
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.remove_circle),
+                  ),
+                  Text(
+                    '1',
+                    style: TextStyle(fontSize: 15),
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.add_circle),
+                  ),
+                ],
               ),
             ],
           ),

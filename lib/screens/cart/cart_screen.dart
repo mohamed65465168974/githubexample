@@ -11,40 +11,135 @@ class CartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar(title: 'cart page'),
-      bottomNavigationBar: CustomNavBar(),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.white,
+        elevation: 40,
+        child: Container(
+          height: 70,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              ElevatedButton(
+                onPressed: () {},
+                child: Text(
+                  'GO TO CHECKOUT',
+                  style: TextStyle(),
+                ),
+                style: ElevatedButton.styleFrom(primary: Colors.green),
+              ),
+            ],
+          ),
+        ),
+      ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            Column(
               children: [
-                const Text(
-                  'add \$20.0 for FREE Delivery',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16.0),
-                ),
-                ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.green,
-                    elevation: 0.0,
-                  ),
-                  onPressed: () {
-                    Get.offAll(HomeScreen());
-                  },
-                  child: Text(
-                    'Add more items',
-                    style: TextStyle(
-                      color: Colors.white,
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const Text(
+                      'add \$20.0 for FREE Delivery',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 16.0),
                     ),
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.green,
+                        elevation: 0.0,
+                      ),
+                      onPressed: () {
+                        Get.offAll(HomeScreen());
+                      },
+                      child: Text(
+                        'Add more items',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                CardProductCard(product: Product.products[0]),
+                CardProductCard(product: Product.products[1]),
+                CardProductCard(product: Product.products[2]),
+              ],
+            ),
+            Column(
+              children: [
+                Divider(
+                  thickness: 2,
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 40.0, vertical: 10),
+                  child: Column(
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'Sub Total',
+                            style: Theme.of(context).textTheme.bodyLarge,
+                          ),
+                          Text(
+                            '100.0 EGP',
+                            style: TextStyle(color: Colors.green),
+                          ),
+                        ],
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'Delivery Fee',
+                            style: Theme.of(context).textTheme.bodyLarge,
+                          ),
+                          Text(
+                            '20.0 EGP',
+                            style: TextStyle(color: Colors.green),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
+                ),
+                Stack(
+                  children: [
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: 60,
+                      color: Colors.grey[200],
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              'Total',
+                              style: Theme.of(context).textTheme.bodyLarge,
+                            ),
+                            Text(
+                              '250.0 EGP',
+                              style: TextStyle(color: Colors.green),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),
-            SizedBox(
-              height: 10,
-            ),
-            CardProductCard(product: Product.products[0]),
-            CardProductCard(product: Product.products[2]),
           ],
         ),
       ),
