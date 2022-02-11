@@ -42,8 +42,8 @@ class CartScreen extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const Text(
-                      'add \$20.0 for FREE Delivery',
+                    Text(
+                      Cart().freeDeliveryString,
                       style: TextStyle(
                           fontWeight: FontWeight.bold, fontSize: 16.0),
                     ),
