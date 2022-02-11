@@ -8,7 +8,17 @@ class Cart extends Equatable {
   double get subtotal =>
       products.fold(0, (total, current) => total + current.price);
 
+  double deliveryFee(subtotal) {
+    if (subtotal >= 200.0) {
+      return 0.0;
+    } else {
+      return 10.0;
+    }
+  }
+
   String get subtotalString => subtotal.toStringAsFixed(2);
+
+  String get deliveryFeeString => deliveryFee(subtotal).toStringAsFixed(2);
 
   List<Product> products = [
     Product(

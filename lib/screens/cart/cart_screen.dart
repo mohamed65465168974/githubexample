@@ -32,130 +32,123 @@ class CartScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: ListView(
-        children: [
-          Padding(
-            padding:
-                const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Column(
               children: [
-                Column(
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        const Text(
-                          'add \$20.0 for FREE Delivery',
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 16.0),
-                        ),
-                        ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                            primary: Colors.green,
-                            elevation: 0.0,
-                          ),
-                          onPressed: () {
-                            Get.offAll(HomeScreen());
-                          },
-                          child: Text(
-                            'Add more items',
-                            style: TextStyle(
-                              color: Colors.white,
-                            ),
-                          ),
-                        ),
-                      ],
+                    const Text(
+                      'add \$20.0 for FREE Delivery',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 16.0),
                     ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    SizedBox(
-                      height: 400,
-                      child: ListView.builder(
-                        itemBuilder: ((context, index) {
-                          return CardProductCard(
-                              product: Cart().products[index]);
-                        }),
-                        itemCount: Cart().products.length,
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.green,
+                        elevation: 0.0,
+                      ),
+                      onPressed: () {
+                        Get.offAll(HomeScreen());
+                      },
+                      child: Text(
+                        'Add more items',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
                       ),
                     ),
                   ],
                 ),
-                Column(
-                  children: [
-                    Divider(
-                      thickness: 2,
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 40.0, vertical: 10),
-                      child: Column(
+                SizedBox(
+                  height: 10,
+                ),
+                SizedBox(
+                  height: 320,
+                  child: ListView.builder(
+                    itemBuilder: ((context, index) {
+                      return CardProductCard(product: Cart().products[index]);
+                    }),
+                    itemCount: Cart().products.length,
+                  ),
+                ),
+              ],
+            ),
+            Column(
+              children: [
+                Divider(
+                  thickness: 2,
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 40.0, vertical: 10),
+                  child: Column(
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                'Sub Total',
-                                style: Theme.of(context).textTheme.bodyLarge,
-                              ),
-                              Text(
-                                '${Cart().subtotalString}',
-                                style: TextStyle(color: Colors.green),
-                              ),
-                            ],
+                          Text(
+                            'Sub Total',
+                            style: Theme.of(context).textTheme.bodyLarge,
                           ),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                'Delivery Fee',
-                                style: Theme.of(context).textTheme.bodyLarge,
-                              ),
-                              Text(
-                                '20.0 EGP',
-                                style: TextStyle(color: Colors.green),
-                              ),
-                            ],
+                          Text(
+                            '${Cart().subtotalString}',
+                            style: TextStyle(color: Colors.green),
                           ),
                         ],
                       ),
-                    ),
-                    Stack(
-                      children: [
-                        Container(
-                          width: MediaQuery.of(context).size.width,
-                          height: 60,
-                          color: Colors.grey[200],
-                          child: Padding(
-                            padding:
-                                const EdgeInsets.symmetric(horizontal: 20.0),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  'Total',
-                                  style: Theme.of(context).textTheme.bodyLarge,
-                                ),
-                                Text(
-                                  '250.0 EGP',
-                                  style: TextStyle(color: Colors.green),
-                                ),
-                              ],
-                            ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'Delivery Fee',
+                            style: Theme.of(context).textTheme.bodyLarge,
                           ),
+                          Text(
+                            '${Cart().deliveryFeeString} EGP',
+                            style: TextStyle(color: Colors.green),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                Stack(
+                  children: [
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: 60,
+                      color: Colors.grey[200],
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              'Total',
+                              style: Theme.of(context).textTheme.bodyLarge,
+                            ),
+                            Text(
+                              '250.0 EGP',
+                              style: TextStyle(color: Colors.green),
+                            ),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
                   ],
                 ),
               ],
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
