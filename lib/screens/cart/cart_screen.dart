@@ -40,7 +40,11 @@ class CartScreen extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(
+              height: 10,
+            ),
             CardProductCard(product: Product.products[0]),
+            CardProductCard(product: Product.products[2]),
           ],
         ),
       ),
