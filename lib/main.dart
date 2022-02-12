@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
+import 'package:githubexample/blocs/category/category_bloc.dart';
 import 'package:githubexample/blocs/wishlist/wishlist_bloc.dart';
+import 'package:githubexample/repositories/category/category_repository.dart';
 import 'blocs/cart/cart_bloc.dart';
 import 'screens/screens.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -20,7 +22,10 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(create: (_) => WishlistBloc()..add(LoadWishlist())),
-        BlocProvider(create: (_) => CartBloc()..add(LoadCart()))
+        BlocProvider(create: (_) => CartBloc()..add(LoadCart())),
+        BlocProvider(
+            create: (_) =>
+                CategoryBloc(CategoryRepository())..add(LoadCategories())),
       ],
       child: GetMaterialApp(
         debugShowCheckedModeBanner: false,
