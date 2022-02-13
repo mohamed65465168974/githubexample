@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shalaby/Desktop/fluttergithub/githubexample/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/shalaby/IdeaProjects/githubexample/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/home/shalaby/IdeaProjects/githubexample/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,716",
+                        "endColumns": "143,81,103,108,119,101,78",
+                        "endOffsets": "194,276,380,489,609,711,790"
+                    },
+                    "to": {
+                        "startLines": "119,120,121,122,123,124,125",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8513,8657,8739,8843,8952,9072,9174",
+                        "endColumns": "143,81,103,108,119,101,78",
+                        "endOffsets": "8652,8734,8838,8947,9067,9169,9248"
+                    }
+                },
                 {
                     "source": "/home/shalaby/.gradle/caches/transforms-2/files-2.1/1ed14d2e427b1694a63f39e62160d1bc/jetified-window-1.0.0-beta04/res/values/values.xml",
                     "from": {
@@ -23,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "/home/shalaby/Desktop/fluttergithub/githubexample/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,716",
-                        "endColumns": "143,81,103,108,119,101,78",
-                        "endOffsets": "194,276,380,489,609,711,790"
-                    },
-                    "to": {
-                        "startLines": "119,120,121,122,123,124,125",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "8513,8657,8739,8843,8952,9072,9174",
-                        "endColumns": "143,81,103,108,119,101,78",
-                        "endOffsets": "8652,8734,8838,8947,9067,9169,9248"
-                    }
-                },
-                {
-                    "source": "/home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/shalaby/IdeaProjects/githubexample/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

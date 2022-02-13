@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 application
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:3:4-33:19
-MERGED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/1ed14d2e427b1694a63f39e62160d1bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/1ed14d2e427b1694a63f39e62160d1bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/cbb798fd9bb5a1d947210bfbc57c8391/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:16:5-24:19
@@ -28,15 +28,15 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/shala
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/df7b310d9d2365d5e0d8e14b2261ac1b/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
-MERGED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
-MERGED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+ADDED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/598b8bb95cdf9ab0ce886d2dfe8930fc/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/1ed14d2e427b1694a63f39e62160d1bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/cbb798fd9bb5a1d947210bfbc57c8391/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:2:1-26:12
@@ -65,31 +65,31 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/shalaby/.gradle
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/0275f141fbe3cc8d8dc6cf92ea3baa41/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.41.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/61de028e8768a5cfe4795c0c1ade90f7/jetified-grpc-android-1.41.0/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/9824c65cc209d844dc2f3638b4d8699d/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:2:5-40
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:2:5-40
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
-MERGED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/598b8bb95cdf9ab0ce886d2dfe8930fc/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/598b8bb95cdf9ab0ce886d2dfe8930fc/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/1ed14d2e427b1694a63f39e62160d1bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -146,24 +146,24 @@ MERGED from [io.grpc:grpc-android:1.41.0] /home/shalaby/.gradle/caches/transform
 MERGED from [io.grpc:grpc-android:1.41.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/61de028e8768a5cfe4795c0c1ade90f7/jetified-grpc-android-1.41.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/9824c65cc209d844dc2f3638b4d8699d/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/9824c65cc209d844dc2f3638b4d8699d/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml:6:5-66
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/cbb798fd9bb5a1d947210bfbc57c8391/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/cbb798fd9bb5a1d947210bfbc57c8391/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:14:5-67
 	android:name
-		ADDED from /home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/cbb798fd9bb5a1d947210bfbc57c8391/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/cbb798fd9bb5a1d947210bfbc57c8391/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/427affba450f3c1ea31ef07a436ce32b/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
@@ -175,19 +175,19 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] /home/shalaby/.gradle/c
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/427affba450f3c1ea31ef07a436ce32b/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+		ADDED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+		ADDED from [:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] /home/shalaby/.gradle/caches/transforms-2/files-2.1/1ed14d2e427b1694a63f39e62160d1bc/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required

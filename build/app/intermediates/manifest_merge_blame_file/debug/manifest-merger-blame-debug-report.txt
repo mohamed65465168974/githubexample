@@ -12,8 +12,8 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/home/shalaby/Desktop/fluttergithub/githubexample/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/shalaby/IdeaProjects/githubexample/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -61,25 +61,25 @@
 56            android:value="2" />
 57
 58        <service
-58-->[:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+58-->[:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 59            android:name="com.google.firebase.components.ComponentDiscoveryService"
-59-->[:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+59-->[:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 60            android:directBootAware="true"
 60-->[com.google.firebase:firebase-common:20.0.0] /home/shalaby/.gradle/caches/transforms-2/files-2.1/427affba450f3c1ea31ef07a436ce32b/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
 61            android:exported="false" >
 61-->[com.google.firebase:firebase-firestore:24.0.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/cbb798fd9bb5a1d947210bfbc57c8391/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:19:13-37
 62            <meta-data
-62-->[:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+62-->[:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-63-->[:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+63-->[:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
 64                android:value="com.google.firebase.components.ComponentRegistrar" />
-64-->[:cloud_firestore] /home/shalaby/Desktop/fluttergithub/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+64-->[:cloud_firestore] /home/shalaby/IdeaProjects/githubexample/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 65            <meta-data
-65-->[:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+65-->[:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-66-->[:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+66-->[:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 67                android:value="com.google.firebase.components.ComponentRegistrar" />
-67-->[:firebase_core] /home/shalaby/Desktop/fluttergithub/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+67-->[:firebase_core] /home/shalaby/IdeaProjects/githubexample/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 68            <meta-data
 68-->[com.google.firebase:firebase-firestore:24.0.1] /home/shalaby/.gradle/caches/transforms-2/files-2.1/cbb798fd9bb5a1d947210bfbc57c8391/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:20:13-22:85
 69                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"

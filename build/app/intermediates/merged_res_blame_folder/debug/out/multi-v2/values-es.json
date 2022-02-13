@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shalaby/Desktop/fluttergithub/githubexample/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "outputFile": "/home/shalaby/IdeaProjects/githubexample/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
             "map": [
                 {
                     "source": "/home/shalaby/.gradle/caches/transforms-2/files-2.1/b7446bd88c3daf0ed3843fab0dc7aa03/jetified-play-services-base-17.1.0/res/values-es/values.xml",

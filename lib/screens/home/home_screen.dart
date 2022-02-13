@@ -3,8 +3,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:githubexample/blocs/category/category_bloc.dart';
-import 'package:githubexample/models/models.dart';
 import 'package:githubexample/widgets/widgets.dart';
+
+import '../../blocs/product/product_bloc.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -37,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                             enlargeStrategy: CenterPageEnlargeStrategy.height),
                         items: state.categories
                             .map((category) =>
-                                HeroCarouselCard(category: category))
+                            HeroCarouselCard(category: category))
                             .toList(),
                       );
                     } else {
@@ -50,19 +51,42 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: 5,
               ),
-              ProductCarousel(
-                products: Product.products
-                    .where((product) => product.isRecommended)
-                    .toList(),
+              BlocBuilder<ProductBloc, ProductState>(
+                builder: (context, state) {
+                  if (state is ProductLoading) {
+                    return Center(child: CircularProgressIndicator(),);
+                  }
+                  if (state is ProductLoaded) {
+                    return ProductCarousel(
+                      products: state.products
+                          .where((product) => product.isRecommended)
+                          .toList(),
+                    );
+                  } else {
+                    return Text('something error');
+                  }
+                },
               ),
               SectionTitle(title: 'Most Popular'),
               SizedBox(
                 height: 5,
               ),
-              ProductCarousel(
-                products: Product.products
-                    .where((product) => product.isPopular)
-                    .toList(),
+              BlocBuilder<ProductBloc, ProductState>(
+                builder: (context, state) {
+                  if(state is ProductLoading){
+                    return Center(child: CircularProgressIndicator(),);
+                  }
+                  if(state is ProductLoaded){
+                    return ProductCarousel(
+                      products: state.products
+                          .where((product) => product.isPopular)
+                          .toList(),
+                    );
+                  }
+                  else {
+                    return Text('something went wrong');
+                  }
+                },
               ),
             ],
           ),
