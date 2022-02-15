@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shalaby/IdeaProjects/githubexample/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\githubexample\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/home/shalaby/.gradle/caches/transforms-2/files-2.1/df7b310d9d2365d5e0d8e14b2261ac1b/core-1.6.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\df7b310d9d2365d5e0d8e14b2261ac1b\\core-1.6.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,14 +1,14 @@
-#Sun Feb 13 05:28:42 EET 2022
+#Tue Feb 15 09:13:32 PST 2022
 path.4=classes_1.dex
 path.3=classes_0.dex
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
-base.4=/home/shalaby/IdeaProjects/githubexample/build/app/intermediates/dex/debug/mergeLibDexDebug/classes_1.dex
-base.3=/home/shalaby/IdeaProjects/githubexample/build/app/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex
-base.2=/home/shalaby/IdeaProjects/githubexample/build/app/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
-base.1=/home/shalaby/IdeaProjects/githubexample/build/app/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
-base.0=/home/shalaby/IdeaProjects/githubexample/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=C\:\\Users\\Administrator\\StudioProjects\\githubexample\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_1.dex
+base.3=C\:\\Users\\Administrator\\StudioProjects\\githubexample\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\classes_0.dex
+base.2=C\:\\Users\\Administrator\\StudioProjects\\githubexample\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.1=C\:\\Users\\Administrator\\StudioProjects\\githubexample\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.0=C\:\\Users\\Administrator\\StudioProjects\\githubexample\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
