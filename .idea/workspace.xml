@@ -728,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644447292262</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="switch to android studio">
+      <created>1644946135359</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1644946135359</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -754,7 +761,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="navigate to wishlist screen from app bar" />
     <MESSAGE value="add carousel to homepage screen" />
     <MESSAGE value="create cateogry model class" />
     <MESSAGE value="use category model to show carousel in home screen" />
@@ -779,7 +785,8 @@
     <MESSAGE value="create wishlist model" />
     <MESSAGE value="create wishlist bloc" />
     <MESSAGE value="update wish list screen to use it is bloc when favorite is pressed" />
-    <option name="LAST_COMMIT_MESSAGE" value="update wish list screen to use it is bloc when favorite is pressed" />
+    <MESSAGE value="switch to android studio" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch to android studio" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
